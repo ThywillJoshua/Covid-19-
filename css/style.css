@@ -1,0 +1,285 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather", serif;
+  background-color: #eaf3f6;
+  box-sizing: border-box;
+  line-height: 20px;
+}
+
+h1 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 400;
+}
+
+/* main {
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #05596b;
+  text-decoration: none;
+}
+
+.divider-ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 0 8%;
+}
+
+.page-titles {
+  margin: 4% 0;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+.fadeIn {
+  animation: fade 0.5s ease-in-out;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Navigation Bar */
+
+.navigationbar {
+  background-color: #027085;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-nav {
+  margin-right: 8%;
+}
+
+.navbrand {
+  margin-left: 7%;
+}
+
+.navbrand-logo {
+  text-decoration: none !important;
+  color: white;
+}
+
+.nav-item:hover {
+  background-color: #008398;
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.02);
+}
+
+.nav-item {
+  padding: 2% 0.8rem;
+  cursor: pointer;
+}
+
+.nav-item a {
+  margin: 0px;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Landing */
+
+.landingview-item {
+  margin: 5% 0;
+}
+
+button {
+  text-align: center;
+}
+
+.forminput,
+.landing-paragraph {
+  margin-top: 5%;
+}
+
+.inputs {
+  width: 70%;
+}
+
+.single-input {
+  margin-top: 5%;
+}
+
+.btn {
+  text-align: center;
+  color: white;
+  margin-top: 3%;
+  background-color: #027085;
+}
+
+.btn:hover {
+  text-align: center;
+  color: white;
+  margin-top: 3%;
+  background-color: #008398;
+}
+
+.landingview-item2 {
+  margin-top: 5%;
+  padding: 5% 5% 10% 5%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.landingview-button {
+  text-align: center;
+}
+/* divider */
+
+#divider {
+  background-color: #f5f5f5;
+  padding: 0 8%;
+}
+
+.divider-item {
+  margin: 5% 0;
+}
+
+/* second view */
+
+.secondview-item {
+  margin: 5% 0%;
+}
+
+.icon2 {
+  padding: 0 0 0 5%;
+  cursor: pointer;
+}
+
+.secondview-item:hover {
+  border: 1px dotted #8b8b8b;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.03);
+}
+
+/* FAQ section */
+
+#faq {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 5% 8%;
+}
+
+.faq-paragraph {
+  margin-bottom: 5%;
+}
+
+/* footer section */
+
+footer {
+  background-color: #027085;
+  padding: 4% 0 0;
+  color: white;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding-left: 0%;
+}
+
+.copyright {
+  background-color: #05596b;
+  text-align: center;
+  padding: 3%;
+}
+
+/* -------------------------------
+Cases & Data page
+------------------------------- */
+
+.covid-data {
+  margin: 0 8%;
+  padding: 5%;
+  background-color: #f5f5f5;
+}
+
+/* ------------------
+Covid-test
+------------------ */
+
+.covid-test {
+  text-align: center;
+}
+
+/* ------------------
+latest news
+------------------ */
+
+.latest-news {
+  margin: 0 8%;
+  padding: 5%;
+  background-color: #f5f5f5;
+}
+
+/* ------------------
+symptoms
+------------------ */
+
+.symptoms1 {
+  background-color: #f5f5f5;
+  padding: 5% 8%;
+}
+
+.symptoms2 {
+  padding: 5% 8%;
+}
+
+/* ------------------
+Restrictions & Quarantine Rules
+------------------ */
+
+.travel {
+  background-color: #f5f5f5;
+  padding: 5% 8%;
+}
+
+.travel-link {
+  color: #008398;
+}
+
+.travel-safe {
+  padding: 5% 8%;
+}
+
+/* ------------------
+Emergency Contacts
+------------------ */
+
+.emergency-contacts {
+  border-bottom: 2px solid #8b8b8b;
+}
+
+/* ------------------
+Success Vaccine
+------------------ */
+
+.alert-message {
+  text-align: center;
+}
